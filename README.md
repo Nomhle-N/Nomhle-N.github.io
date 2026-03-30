@@ -1,4 +1,4 @@
-# 👋 Nomhle Njengele
+# 👩🏾‍💻 Nomhle Njengele
 
 ## 💻 Aspiring Software Developer | IT Student
 
