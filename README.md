@@ -89,3 +89,8 @@ Principal | Zingisani Primary School
 ### Mrs T.E. Jacobs  
 Teacher | Zingisani Primary School  
 📱 079 498 6391
+
+---
+
+## 🎬 Mock Interview Video
+[Click here to watch my mock interview](https://drive.google.com/file/d/1nq-vpNw6DP1lYAg21_8_woKXLLok00Hg/view?usp=drivesdk)
