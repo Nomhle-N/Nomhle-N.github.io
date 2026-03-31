@@ -83,10 +83,11 @@ Teacher | Zingisani Primary School
 ---
 
 ## 🎬 Mock Interview Video
-<video controls style="max-height: 400px; max-width: 100%;">
+<video width="320" height="auto" controls>
   <source src="interview.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
 
 
 ```
