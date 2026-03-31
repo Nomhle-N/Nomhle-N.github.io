@@ -85,6 +85,6 @@ Teacher | Zingisani Primary School
 ## 🎬 Mock Interview Video
 
 <video width="600" controls>
-  <source src="Nomhle Njengele Mock interview .mp4" type="video/mp4">
+  <source src="Nomhle%20Njengele%20%20Mock%20interview%20.mp4" type="video/mp4">
 </video>
 ```
