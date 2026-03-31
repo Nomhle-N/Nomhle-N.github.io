@@ -1,9 +1,7 @@
-<style>
-  header, .project-name { 
-    display: none !important; 
-  }
-</style>
-
+---
+title: ""
+description: ""
+---
 # 👩‍💻 Nomhle Njengele
 Aspiring Software Developer | IT Student
 
