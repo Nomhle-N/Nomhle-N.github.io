@@ -1,4 +1,9 @@
-
+ <style>
+ /* Hides the main header completely */
+ header, .project-name, .project-tagline {
+   display: none !important;
+}
+</style>
 # 👩‍💻 Nomhle Njengele
 Aspiring Software Developer | IT Student
 
