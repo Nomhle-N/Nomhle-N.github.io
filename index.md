@@ -1,7 +1,4 @@
----
-title: "My Custom Title"
-description: ""
----
+
 # 👩‍💻 Nomhle Njengele
 Aspiring Software Developer | IT Student
 
