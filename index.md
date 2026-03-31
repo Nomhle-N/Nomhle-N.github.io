@@ -22,8 +22,14 @@ professional development team.
 ---
 
 ## 🎓 Education
+
+
 **Monwabisi High School** | Matric | 2010 – 2015
+
+
 **Diploma in Operations Management** | CPUT | 2018 – 2021
+
+
 **Diploma in ICT: Applications Development** | CPUT | 2024 – Present
 
 ---
