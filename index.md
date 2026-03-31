@@ -1,6 +1,7 @@
----
-title: " "
----
+<style>
+  header { display: none !important; }
+  .project-name { display: none !important; }
+</style>
 
 
 # 👩‍💻 Nomhle Njengele
