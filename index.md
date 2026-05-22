@@ -12,12 +12,7 @@ Aspiring Software Developer | IT Student
 ---
 
 ## 🎯 Objectives
-A motivated ICT student specializing in Software Development at
-Cape Peninsula University of Technology (CPUT), with a strong technical
-foundation developed through Computer Applications Technology (CAT)
-in high school. I am eager to apply my analytical and programming skills 
-to develop efficient software solutions and contribute effectively to a
-professional development team.
+I am an ICT student at Cape Peninsula University of Technology (CPUT), studying Application Development. I have a background in Computer Applications Technology (CAT) from high school, which gave me a basic understanding of technology. I am interested in using my programming and problem-solving skills to develop useful applications. I am eager to learn and grow while contributing to a professional development team.
 
 ---
 
