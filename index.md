@@ -98,7 +98,7 @@ Teacher | Zingisani Primary School
 ### Reflection 1: Coding in Markdown
 
 **Situation:**
-As part of my Project Presentation 3 module (PRP370S) at Cape Peninsula University of Technology, I was required to create a digital portfolio using GitHub. The portfolio had to show evidence of my work readiness training and had to be coded using Markdown language. Before this assessment, I had very little experience with Markdown, as I was more familiar with programming languages such as Java and Python.
+As part of my Project Presentation 3 module (PRP372S) at Cape Peninsula University of Technology, I was required to create a digital portfolio using GitHub. The portfolio had to show evidence of my work readiness training and had to be coded using Markdown language. Before this assessment, I had very little experience with Markdown, as I was more familiar with programming languages such as Java and Python.
 
 **Task:**
 My task was to create a well-structured, professional, and easy-to-read portfolio page using only Markdown syntax. This included formatting headings, tables, bullet points, horizontal lines, bold text, and adding links and media where necessary. The final portfolio needed to look neat and professional when published on GitHub Pages.
