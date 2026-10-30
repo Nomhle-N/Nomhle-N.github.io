@@ -79,7 +79,7 @@ Teacher | Zingisani Primary School
 ---
 
 ## 🎬 Mock Interview Video
-<video controls width="480">
+<video controls width="300">
   <source src="interview.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
@@ -179,16 +179,16 @@ My portfolio is now live online. This experience taught me an easy way to publis
 **Evidence:** [GoClean Trello board](https://trello.com/b/Ia2c4Am0/goclean-app)
 
 ### Sprint 1 Board
-<img src="1000987851.jpg" alt="Sprint 1 Board" width="480">
+<img src="1000987851.jpg" alt="Sprint 1 Board" width="300">
 
 ### Sprint 2 Board
-<img src="1000987852.jpg" alt="Sprint 2 Board" width="480">
+<img src="1000987852.jpg" alt="Sprint 2 Board" width="300">
 
 ### Sprint 3 Board
-<img src="1000987853.jpg" alt="Sprint 3 Board" width="480">
+<img src="1000987853.jpg" alt="Sprint 3 Board" width="300">
 
 ### Sprint 4 Board
-<img src="1000987854.jpg" alt="Sprint 4 Board" width="480">
+<img src="1000987854.jpg" alt="Sprint 4 Board" width="300">
 
 ### Sprint 5 Board
 <img src="1000987855.jpg" alt="Sprint 5 Board" width="480">
