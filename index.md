@@ -1,4 +1,3 @@
-
 # 👩‍💻 Nomhle Njengele
 Aspiring Software Developer | IT Student
 
@@ -18,12 +17,9 @@ I am an ICT student at Cape Peninsula University of Technology (CPUT), studying 
 
 ## 🎓 Education
 
-
 **Monwabisi High School** | Matric | 2010 – 2015
 
-
 **Diploma in Operations Management** | CPUT | 2018 – 2021
-
 
 **Diploma in ICT: Applications Development** | CPUT | 2024 – Present
 
@@ -83,12 +79,11 @@ Teacher | Zingisani Primary School
 ---
 
 ## 🎬 Mock Interview Video
-<video width="320" height="auto" controls>
+<video controls width="100%" style="max-width: 480px; height: auto; border-radius: 8px;">
   <source src="interview.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
-```
 ---
 
 ## 📝 Reflections
@@ -143,6 +138,8 @@ My portfolio is now live at [https://nomhle-n.github.io](https://nomhle-n.github
 
 This experience taught me how developers can publish websites quickly and professionally using GitHub Pages. I also learned the importance of testing websites on different devices to ensure a good user experience.
 
+---
+
 # 🧼 GoClean Agile Project Management & WIL Reflections
 
 ## 🤝 Agile Team Charter
@@ -190,9 +187,10 @@ This experience taught me how developers can publish websites quickly and profes
 - **Result:** By 7 August, the sprint board was complete, and I could start coding the next front-end pages. I learned that a sprint backlog only works well when every task has a clear owner.
 
 ---
+
 ## 📓 Agile Logbook
 **Evidence:**
-- [14-17 July](Nomhle_Njengele_Agile_Logbook-1.pdf)
+- [14-17 July](Nomhle%20Njengele%20Agile%20Logbook-1.pdf)
 - [21-24 July](Nomhle_Njengele_Agile_book_21July_to_24_July-2.pdf)
 - [28-31 July](Nomhle_Njengele_Agile_Logbook_28_31_July_2026-1.pdf)
 - [4-7 August](Nomhle_Njengele_Agile_Logbook_4_7_August_06.pdf)
@@ -203,10 +201,9 @@ This experience taught me how developers can publish websites quickly and profes
 - **Action:** Each day I logged my completed work—including presentation slides, Figma wireframes, Trello backlog setup, coding and merging the Forgot and Reset Password pages, and building the sprint board.
 - **Result:** The logbooks created an auditable trail of my professional evolution, highlighting how I systematically tracked blockers, managed time constraints, and delivered code iteratively. I gained invaluable practical experience in multitasking, disciplined documentation, and Agile project execution under high-pressure academic conditions.
 
-
 ---
 
-## 💻 Reflection 3: Portfolio Development & Web Publishing
+## 💻 Portfolio Development & Web Publishing
 
 **Reflection:**
 - **Situation:** After finalizing all our Agile documentation and project evidence, I needed to assemble and publish everything into a clean, professional digital portfolio using Markdown and GitHub Pages.
