@@ -106,124 +106,6 @@ My task was to create a well-structured, professional, and easy-to-read portfoli
 **Action:**
 I researched GitHub Flavoured Markdown (GFM) to understand how it works and how it is used on GitHub. I planned the structure of my portfolio and included sections such as contact details, career objectives, education, work experience, technical skills, projects, references, and the mock interview video. I used headings, bold text, bullet points, tables, and HTML tags where needed for embedding media. I also made regular commits while fixing formatting issues and improving the overall layout.
 
-## 🤝 Agile Team Charter
-
-**Evidence:** [GoClean Agile Team Charter](Agile_Team_Charter_GoClean.pdf)
-
-
-
-**Reflection:**
-
-- **Situation:** Our team of five started the GoClean project after feedback from our lecturer made us pivot our idea from a complex public clinic booking system to a practical laundry pickup and delivery web application[span_0](start_span)[span_0](end_span)[span_1](start_span)[span_1](end_span). We needed a formal agreement to govern how we would collaborate.
-
-- **Task:** As the Developer, I had to understand my technical scope—building system modules using Java Spring Boot and MySQL—while helping the team establish our shared mission, project success criteria, core values, and communication rules[span_2](start_span)[span_2](end_span)[span_3](start_span)[span_3](end_span)[span_4](start_span)[span_4](end_span)[span_5](start_span)[span_5](end_span).
-
-- **Action:** We collaboratively authored the charter, documenting our vision, team roles, core values (respect, transparency, accountability, trust, and a learning mindset), and a structured communication plan for customers and drivers[span_6](start_span)[span_6](end_span)[span_7](start_span)[span_7](end_span)[span_8](start_span)[span_8](end_span)[span_9](start_span)[span_9](end_span).
-
-- **Result:** The charter established a clear governance structure, explicit individual responsibilities, and accountability standards[span_10](start_span)[span_10](end_span)[span_11](start_span)[span_11](end_span). I learned that aligning on team processes and working agreements before writing code drastically minimizes scope creep and miscommunication during implementation.
-
-
-
----
-
-
-
-## 📝 User Stories and Tasks
-
-**Evidence:** [GoClean Trello board](https://trello.com/b/Ia2c4Am0/goclean-app)
-
-
-
-**Reflection:**
-
-- **Situation:** On 24 July, a team member presented our Trello product backlog to the lecturer, and she evaluated that our items were written as generic administrative headers rather than standard Agile user stories ("As a [user], I want to..., so that...")[span_12](start_span)[span_12](end_span).
-
-- **Task:** I was tasked with helping reformat the entire product backlog into standard Agile user story templates to ensure every item explicitly tied back to end-user value and system requirements[span_13](start_span)[span_13](end_span).
-
-- **Action:** I systematically rewrote our backlog entries into formal user story structures within documentation files, which a team member subsequently migrated onto our Trello board before we categorized them into actionable sprints[span_14](start_span)[span_14](end_span).
-
-- **Result:** Transitioning to formal user stories provided the team with clear, customer-centric acceptance criteria[span_15](start_span)[span_15](end_span). I learned that framing requirements through the user's perspective ensures the technical implementation directly addresses real user needs rather than just arbitrary feature lists.
-
-
-
----
-
-
-
-## 📋 Product Backlog
-
-**Evidence:** [GoClean Trello board](https://trello.com/b/Ia2c4Am0/goclean-app)
-
-
-
-**Reflection:**
-
-- **Situation:** During the week of 21 July, our team compiled an extensive backlog covering full-stack requirements—including Spring Boot backend architecture, MySQL schema mapping, responsive front-end pages, test suites, and pilot launch criteria—which required careful management[span_16](start_span)[span_16](end_span).
-
-- **Task:** We needed to refine, prioritize, and structure our Trello product backlog to serve as the single source of truth before sprint planning began[span_17](start_span)[span_17](end_span).
-
-- **Action:** We conducted a team prioritization meeting to evaluate tasks based on technical dependencies and business value, organizing items into logical sprint milestones prior to my official submission of the product backlog on 30 July[span_18](start_span)[span_18](end_span)[span_19](start_span)[span_19](end_span).
-
-- **Result:** We successfully produced a structured, prioritized product backlog that guided our development work[span_20](start_span)[span_20](end_span). I learned that collaborative backlog grooming requires balancing technical constraints with project timelines, and investing time here prevents bottlenecks later.
-
-
-
----
-
-
-
-## 🏃 Sprint Backlog
-
-**Evidence:** 
-
-
-
-![Sprint board](sprint-board.png)
-
-
-
-**Reflection:**
-
-- **Situation:** With the product backlog established, our team transitioned into sprint planning to select and commit to specific deliverables for the current execution cycle[span_21](start_span)[span_21](end_span).
-
-- **Task:** I took an active role in configuring our Trello sprint board, breaking down user stories into granular technical tasks, and ensuring clear ownership distribution across all team members[span_22](start_span)[span_22](end_span).
-
-- **Action:** From 5 to 7 August, I worked closely with the team to map out sprint tasks and allocate ownership cards, navigating scheduling and availability constraints to ensure full team commitment[span_23](start_span)[span_23](end_span).
-
-- **Result:** The finalized sprint board went live by 7 August, enabling an immediate, structured transition into front-end development (such as building and merging the Forgot and Reset Password modules)[span_24](start_span)[span_24](end_span). I learned that an Agile sprint backlog is only effective when every task has explicit ownership and clearly defined accountability[span_25](start_span)[span_25](end_span).
-
-
-
----
-
-
-
-## 📓 Agile Logbook
-
-**Evidence:**
-
-- [14-17 July](Nomhle Njengele Agile Logbook-1.docx)[span_26](start_span)[span_26](end_span)
-
-- [21-24 July](Nomhle_Njengele_Agile_book_21July_to_24 July-2.docx)[span_27](start_span)[span_27](end_span)
-
-- [28-31 July](Nomhle_Njengele_Agile_Logbook_28_31_July_2026-1.docx)[span_28](start_span)[span_28](end_span)
-
-- [4-7 August](Nomhle_Njengele_Agile_Logbook_4_7_August_06.docx)[span_29](start_span)[span_29](end_span)
-
-
-
-**Reflection:**
-
-- **Situation:** Across four intense weeks from 14 July to 7 August, I balanced continuous GoClean contributions (from initial UI wireframing in Figma to Spring Boot integration and Trello backlog management) alongside concurrent ADP372S capstone deliverables and deadlines[span_30](start_span)[span_30](end_span)[span_31](start_span)[span_31](end_span)[span_32](start_span)[span_32](end_span)[span_33](start_span)[span_33](end_span).
-
-- **Task:** My objective was to rigorously maintain daily Agile logbook entries detailing my completed tasks, daily stand-up walkthrough goals, and active technical risks or time constraints[span_34](start_span)[span_34](end_span)[span_35](start_span)[span_35](end_span)[span_36](start_span)[span_36](end_span)[span_37](start_span)[span_37](end_span).
-
-- **Action:** Every day, I recorded my progress transparently—documenting presentation design iterations, Figma wireframe creation, Trello backlog refinements, the development and code-review pull requests for the Forgot/Reset Password pages, and sprint board configurations[span_38](start_span)[span_38](end_span)[span_39](start_span)[span_39](end_span)[span_40](start_span)[span_40](end_span)[span_41](start_span)[span_41](end_span).
-
-- **Result:** The logbooks created an auditable trail of my professional evolution, highlighting how I systematically tracked blockers, managed time constraints, and delivered code iteratively[span_42](start_span)[span_42](end_span)[span_43](start_span)[span_43](end_span)[span_44](start_span)[span_44](end_span)[span_45](start_span)[span_45](end_span). I gained invaluable practical experience in multitasking, disciplined documentation, and Agile project execution under high-pressure academic conditions[span_46](start_span)[span_46](end_span)[span_47](start_span)[span_47](end_span)[span_48](start_span)[sp
-
-an_48](end_span)[span_49](start_span)[span_49](end_span).
-
 **Result:**
 I successfully created a professional portfolio using Markdown. I learned that Markdown is a useful tool commonly used for README files, documentation, and online content. I am now more confident working with GitHub and using Markdown in future projects.
 
@@ -260,4 +142,76 @@ I enabled GitHub Pages in the repository settings and selected the correct branc
 My portfolio is now live at [https://nomhle-n.github.io](https://nomhle-n.github.io)
 
 This experience taught me how developers can publish websites quickly and professionally using GitHub Pages. I also learned the importance of testing websites on different devices to ensure a good user experience.
+
+# 🧼 GoClean Agile Project Management & WIL Reflections
+
+## 🤝 Agile Team Charter
+**Evidence:** [GoClean Agile Team Charter](Agile_Team_Charter_GoClean.pdf)
+
+**Reflection:**
+- **Situation:** Our team of five started the GoClean project after feedback from our lecturer made us change our idea from a clinic booking system to a laundry pickup and delivery service. We needed clear rules for how we would work together.
+- **Task:** As the Developer, I had to understand my role (building the system using Java Spring Boot and Supabase) and help the team agree on our vision, values, and team rules.
+- **Action:** We wrote the charter together, setting out our vision, team roles, core values (respect, transparency, accountability, trust, and a learning mindset), and how we would communicate.
+- **Result:** The charter gave every member a clear role and set a shared standard for team communication and deadlines. I learned that agreeing on team rules before building anything saves time and prevents confusion later.
+
+---
+
+## 📝 User Stories and Tasks
+**Evidence:** [GoClean Trello board](https://trello.com/b/Ia2c4Am0/goclean-app)
+
+**Reflection:**
+- **Situation:** On 24 July, a team member presented our Trello product backlog to the lecturer, and she told us our tasks were not yet written as proper user stories ("As a [user], I want to..., so that...").
+- **Task:** I had to help rewrite the backlog in user story format so it clearly described what the customer needs instead of just listing developer tasks.
+- **Action:** I wrote out the user stories in a document, and a team member updated our Trello board with them before we organized them into sprints.
+- **Result:** Writing proper user stories gave our team a clear, customer-focused list of work to plan from. I learned that a user story explains who needs a feature and why, which makes the work much clearer to build.
+
+---
+
+## 📋 Product Backlog
+**Evidence:** [GoClean Trello board](https://trello.com/b/Ia2c4Am0/goclean-app)
+
+**Reflection:**
+- **Situation:** In the week of 21 July, our team had a long list of work for GoClean (backend architecture, Supabase database integration, front end, testing, and pilot launch prep) that needed to be organized.
+- **Task:** We had to finalize our Trello product backlog and agree on task priorities together.
+- **Action:** We met as a team to review our Trello tasks and group them into sprint lists, agreeing on priorities before I submitted the product backlog on 30 July.
+- **Result:** We built a clear, prioritized product backlog to guide our development work. I learned that taking time to agree on task priorities as a team prevents bottlenecks once coding starts.
+
+---
+
+## 🏃 Sprint Backlog
+**Evidence:** 
+
+![Sprint board](sprint-board.png)
+
+**Reflection:**
+- **Situation:** After submitting the product backlog, we needed to plan which specific tasks we would work on in the active sprint.
+- **Task:** I had to help set up the Trello sprint board and make sure user stories were assigned to team members.
+- **Action:** From 5 to 7 August, I worked with the team to move user stories into the current sprint and assign cards to each member, working through schedule availability to get it done.
+- **Result:** By 7 August, the sprint board was complete, and I could start coding the next front-end pages. I learned that a sprint backlog only works well when every task has a clear owner.
+
+---
+
+## 📓 Agile Logbook
+**Evidence:**
+- [14-17 July](Nomhle Njengele Agile Logbook-1.docx)
+- [21-24 July](Nomhle_Njengele_Agile_book_21July_to_24 July-2.docx)
+- [28-31 July](Nomhle_Njengele_Agile_Logbook_28_31_July_2026-1.docx)
+- [4-7 August](Nomhle_Njengele_Agile_Logbook_4_7_August_06.docx)
+
+**Reflection:**
+- **Situation:** From 14 July to 7 August, I worked on the GoClean app while managing tight deadlines for my ADP372S capstone project, with time being my main challenge.
+- **Task:** I had to record my daily progress, stand-up goals, and blockers in my Agile logbook.
+- **Action:** Each day I logged my completed work—including presentation slides, Figma wireframes, Trello backlog setup, coding and merging the Forgot and Reset Password pages, and building the sprint board.
+- **Result:** The logbooks created an auditable trail of my professional evolution, highlighting how I systematically tracked blockers, managed time constraints, and delivered code iteratively. I gained invaluable practical experience in multitasking, disciplined documentation, and Agile project execution under high-pressure academic conditions.
+
+---
+
+## 💻 Reflection 3: Portfolio Development & Web Publishing
+
+**Reflection:**
+- **Situation:** After finalizing all our Agile documentation and project evidence, I needed to assemble and publish everything into a clean, professional digital portfolio using Markdown and GitHub Pages.
+- **Task:** My task was to organize the portfolio structure, format all sections with clear headings and bullet points, and deploy the site successfully so that lecturers and reviewers could easily read our work and access our PDF files.
+- **Action:** I structured the Markdown pages, embedded the required evidence links and images, and used GitHub's version control to commit and deploy the updates.
+- **Result:** I successfully created and published a professional digital portfolio. I learned how valuable Markdown is for documentation and technical writing, and I am now much more confident using GitHub Pages to showcase software development projects.
+
 
