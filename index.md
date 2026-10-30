@@ -190,19 +190,19 @@ This experience taught me how developers can publish websites quickly and profes
 - **Result:** By 7 August, the sprint board was complete, and I could start coding the next front-end pages. I learned that a sprint backlog only works well when every task has a clear owner.
 
 ---
-
 ## 📓 Agile Logbook
 **Evidence:**
-- [14-17 July](Nomhle Njengele Agile Logbook-1.docx)
-- [21-24 July](Nomhle_Njengele_Agile_book_21July_to_24 July-2.docx)
-- [28-31 July](Nomhle_Njengele_Agile_Logbook_28_31_July_2026-1.docx)
-- [4-7 August](Nomhle_Njengele_Agile_Logbook_4_7_August_06.docx)
+- [14-17 July](Nomhle_Njengele_Agile_Logbook-1.pdf)
+- [21-24 July](Nomhle_Njengele_Agile_book_21July_to_24_July-2.pdf)
+- [28-31 July](Nomhle_Njengele_Agile_Logbook_28_31_July_2026-1.pdf)
+- [4-7 August](Nomhle_Njengele_Agile_Logbook_4_7_August_06.pdf)
 
 **Reflection:**
 - **Situation:** From 14 July to 7 August, I worked on the GoClean app while managing tight deadlines for my ADP372S capstone project, with time being my main challenge.
 - **Task:** I had to record my daily progress, stand-up goals, and blockers in my Agile logbook.
 - **Action:** Each day I logged my completed work—including presentation slides, Figma wireframes, Trello backlog setup, coding and merging the Forgot and Reset Password pages, and building the sprint board.
 - **Result:** The logbooks created an auditable trail of my professional evolution, highlighting how I systematically tracked blockers, managed time constraints, and delivered code iteratively. I gained invaluable practical experience in multitasking, disciplined documentation, and Agile project execution under high-pressure academic conditions.
+
 
 ---
 
