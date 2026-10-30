@@ -5,7 +5,7 @@ Aspiring Software Developer | IT Student
 
 ## 📫 Contact
 - **Phone:** 079 714 3173
-- **Email:** 216227488@mycput.ac.za
+- **Email:** [216227488@mycput.ac.za](mailto:216227488@mycput.ac.za)
 - **Address:** 19 Abramz Katz Ave, Montana, 7490
 
 ---
@@ -79,7 +79,7 @@ Teacher | Zingisani Primary School
 ---
 
 ## 🎬 Mock Interview Video
-<video controls width="100%" style="max-width: 480px; height: auto; border-radius: 8px;">
+<video controls width="480">
   <source src="interview.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
@@ -93,50 +93,48 @@ Teacher | Zingisani Primary School
 ### Reflection 1: Coding in Markdown
 
 **Situation:**
-As part of my Project Presentation 3 module (PRP372S) at Cape Peninsula University of Technology, I was required to create a digital portfolio using GitHub. The portfolio had to show evidence of my work readiness training and had to be coded using Markdown language. Before this assessment, I had very little experience with Markdown, as I was more familiar with programming languages such as Java and Python.
+For my Project Presentation 3 module (PRP372S) at Cape Peninsula University of Technology, I needed to build a digital portfolio website using GitHub. Before this, I mostly wrote code in Java and Python, so I had very little experience using Markdown language to build web pages.
 
 **Task:**
-My task was to create a well-structured, professional, and easy-to-read portfolio page using only Markdown syntax. This included formatting headings, tables, bullet points, horizontal lines, bold text, and adding links and media where necessary. The final portfolio needed to look neat and professional when published on GitHub Pages.
+My goal was to create a neat, professional portfolio page using only Markdown. I needed to use proper headings, bullet points, links, and text formatting so that it looked great when published on GitHub Pages.
 
 **Action:**
-I researched GitHub Flavoured Markdown (GFM) to understand how it works and how it is used on GitHub. I planned the structure of my portfolio and included sections such as contact details, career objectives, education, work experience, technical skills, projects, references, and the mock interview video. I used headings, bold text, bullet points, tables, and HTML tags where needed for embedding media. I also made regular commits while fixing formatting issues and improving the overall layout.
+I researched how Markdown works on GitHub. I planned out the sections of my website, such as my contact details, education, skills, projects, and my mock interview video. I used headings, bold text, and bullet points to organize the information clearly, and tested my changes regularly.
 
 **Result:**
-I successfully created a professional portfolio using Markdown. I learned that Markdown is a useful tool commonly used for README files, documentation, and online content. I am now more confident working with GitHub and using Markdown in future projects.
+I successfully built my portfolio using Markdown. I learned that Markdown is very helpful for writing documentation and creating online content, and I feel much more confident using GitHub now.
 
 ---
 
 ### Reflection 2: Mock Interview Video Experience
 
 **Situation:**
-As part of my work readiness training, I was required to record a mock interview video based on a real job or internship interview. Speaking formally in front of the camera was challenging because it is very different from coding or completing written tasks.
+As part of my training, I had to record and upload a mock interview video for a software developer job. Speaking formally on camera was difficult for me because it is very different from writing code or doing school assignments.
 
 **Task:**
-My task was to prepare, record, and upload a mock interview video to include in my digital portfolio. The video needed to show confidence, professionalism, communication skills, and knowledge of my studies and technical abilities.
+My task was to prepare and record a video where I talk about my background, my studies, my programming skills, and my projects with confidence and professionalism.
 
 **Action:**
-I prepared answers about my background, education, technical skills, and future career goals. I spoke about my experience with Python, Java, JavaScript, HTML, and CSS. I also explained my contribution to the EcoTrend project and how I approach debugging when solving coding problems. I dressed professionally, used a clean background, and spoke clearly while looking at the camera.
+I wrote down my answers ahead of time. I practiced talking about my experience with Python, Java, JavaScript, HTML, and CSS. I also explained how I helped build the EcoTrend project and how I solve coding problems. When recording, I dressed professionally, used a clean background, and spoke clearly.
 
 **Result:**
-The activity helped me improve my confidence, communication, and interview skills. I realised areas where I still need improvement, such as maintaining eye contact and reducing filler words. It also helped me speak more confidently about my projects, strengths, and future goals.
+This activity helped me improve my communication skills and build my confidence. It taught me how to speak clearly about my strengths and projects, which will help me do well in real job interviews.
 
 ---
 
 ### Reflection 3: Using GitHub Pages
 
 **Situation:**
-For this assessment, I was required to publish my portfolio as a live website using GitHub Pages. Although I had used GitHub before for assignments and version control, publishing a website was a new experience for me.
+Although I had used GitHub before for storing code and school assignments, I had never published a live website using GitHub Pages before.
 
 **Task:**
-My task was to configure my repository correctly and make sure that the portfolio displayed properly online, including the CV, reflections, and mock interview video.
+My task was to set up my GitHub repository correctly so that my portfolio, CV, reflections, and video would display properly on a live website.
 
 **Action:**
-I enabled GitHub Pages in the repository settings and selected the correct branch for publishing. I tested the website on both my laptop and cellphone to make sure it displayed correctly on different screen sizes. When I found formatting issues, I edited the files, committed the changes, and refreshed the website to check the updates.
+I turned on GitHub Pages in my repository settings and chose the correct branch. I tested the website on both my computer and my phone to make sure everything looked good on different screen sizes. When I spotted a mistake, I updated my files, saved the changes, and refreshed the page to check my work.
 
 **Result:**
-My portfolio is now live at [https://nomhle-n.github.io](https://nomhle-n.github.io)
-
-This experience taught me how developers can publish websites quickly and professionally using GitHub Pages. I also learned the importance of testing websites on different devices to ensure a good user experience.
+My portfolio is now live online. This experience taught me an easy way to publish websites and showed me why it is important to test websites on both phones and computers.
 
 ---
 
@@ -146,10 +144,10 @@ This experience taught me how developers can publish websites quickly and profes
 **Evidence:** [GoClean Agile Team Charter](Agile_Team_Charter_GoClean.pdf)
 
 **Reflection:**
-- **Situation:** Our team of five started the GoClean project after feedback from our lecturer made us change our idea from a clinic booking system to a laundry pickup and delivery service. We needed clear rules for how we would work together.
-- **Task:** As the Developer, I had to understand my role (building the system using Java Spring Boot and Supabase) and help the team agree on our vision, values, and team rules.
-- **Action:** We wrote the charter together, setting out our vision, team roles, core values (respect, transparency, accountability, trust, and a learning mindset), and how we would communicate.
-- **Result:** The charter gave every member a clear role and set a shared standard for team communication and deadlines. I learned that agreeing on team rules before building anything saves time and prevents confusion later.
+- **Situation:** Our group of five started working on the GoClean project after our lecturer suggested changing our idea from a clinic booking system to a laundry pickup and delivery service. We needed ground rules on how to work together.
+- **Task:** As a developer, I needed to understand my role—building the system using Java Spring Boot—and help my team agree on our goals and team rules.
+- **Action:** Together, we wrote a team charter. We listed our core values, such as respect, clear communication, and teamwork, and decided how we would handle our tasks.
+- **Result:** The charter gave every team member a clear job and kept us working well together. I learned that setting team rules early saves a lot of time and confusion later.
 
 ---
 
@@ -157,34 +155,49 @@ This experience taught me how developers can publish websites quickly and profes
 **Evidence:** [GoClean Trello board](https://trello.com/b/Ia2c4Am0/goclean-app)
 
 **Reflection:**
-- **Situation:** On 24 July, a team member presented our Trello product backlog to the lecturer, and she told us our tasks were not yet written as proper user stories ("As a [user], I want to..., so that...").
-- **Task:** I had to help rewrite the backlog in user story format so it clearly described what the customer needs instead of just listing developer tasks.
-- **Action:** I wrote out the user stories in a document, and a team member updated our Trello board with them before we organized them into sprints.
-- **Result:** Writing proper user stories gave our team a clear, customer-focused list of work to plan from. I learned that a user story explains who needs a feature and why, which makes the work much clearer to build.
+- **Situation:** On 24 July, we presented our Trello backlog to our lecturer, and she told us our tasks looked like developer chores instead of proper user stories ("As a user, I want to do X so that Y").
+- **Task:** My task was to help rewrite our backlog tasks into proper user story format so they focused on what the customer needs.
+- **Action:** I wrote out the user stories in a document, and a teammate updated our Trello board with them before we sorted them into sprints.
+- **Result:** Writing proper user stories made it much easier to understand what features we needed to build and why our users needed them.
 
 ---
 
 ## 📋 Product Backlog
 **Evidence:** [GoClean Trello board](https://trello.com/b/Ia2c4Am0/goclean-app)
 
+<img src="1000987856.jpg" alt="Product Backlog" width="480">
+
 **Reflection:**
-- **Situation:** In the week of 21 July, our team had a long list of work for GoClean (backend architecture, Supabase database integration, front end, testing, and pilot launch prep) that needed to be organized.
-- **Task:** We had to finalize our Trello product backlog and agree on task priorities together.
-- **Action:** We met as a team to review our Trello tasks and group them into sprint lists, agreeing on priorities before I submitted the product backlog on 30 July.
-- **Result:** We built a clear, prioritized product backlog to guide our development work. I learned that taking time to agree on task priorities as a team prevents bottlenecks once coding starts.
+- **Situation:** By late July, our team had a long list of tasks for GoClean—including the database, front-end pages, and testing—that needed to be organized.
+- **Task:** We needed to sort and prioritize our Trello product backlog so we knew what to build first.
+- **Action:** As a team, we reviewed our Trello tasks and grouped them into order of importance before submitting our product backlog on 30 July.
+- **Result:** Having a clear product backlog kept our work organized and helped us avoid wasting time on the wrong features.
 
 ---
 
-## 🏃 Sprint Backlog
-**Evidence:** 
+## 🏃 Sprint Backlog & Boards
+**Evidence:** [GoClean Trello board](https://trello.com/b/Ia2c4Am0/goclean-app)
 
-![Sprint board](sprint-board.png)
+### Sprint 1 Board
+<img src="1000987851.jpg" alt="Sprint 1 Board" width="480">
+
+### Sprint 2 Board
+<img src="1000987852.jpg" alt="Sprint 2 Board" width="480">
+
+### Sprint 3 Board
+<img src="1000987853.jpg" alt="Sprint 3 Board" width="480">
+
+### Sprint 4 Board
+<img src="1000987854.jpg" alt="Sprint 4 Board" width="480">
+
+### Sprint 5 Board
+<img src="1000987855.jpg" alt="Sprint 5 Board" width="480">
 
 **Reflection:**
-- **Situation:** After submitting the product backlog, we needed to plan which specific tasks we would work on in the active sprint.
-- **Task:** I had to help set up the Trello sprint board and make sure user stories were assigned to team members.
-- **Action:** From 5 to 7 August, I worked with the team to move user stories into the current sprint and assign cards to each member, working through schedule availability to get it done.
-- **Result:** By 7 August, the sprint board was complete, and I could start coding the next front-end pages. I learned that a sprint backlog only works well when every task has a clear owner.
+- **Situation:** After finishing our product backlog, we needed to plan which specific tasks to work on for each sprint.
+- **Task:** I helped set up our Trello sprint boards and assigned tasks to different team members.
+- **Action:** From 5 to 7 August, I worked with my team to move user stories into our active sprints and assign cards to everyone based on their availability.
+- **Result:** By 7 August, our sprint boards were ready, and I could start coding the front-end pages. I learned that sprint boards work best when every task has one clear person in charge.
 
 ---
 
@@ -196,19 +209,17 @@ This experience taught me how developers can publish websites quickly and profes
 - [4-7 August](Nomhle_Njengele_Agile_Logbook_4_7_August_06.pdf)
 
 **Reflection:**
-- **Situation:** From 14 July to 7 August, I worked on the GoClean app while managing tight deadlines for my ADP372S capstone project, with time being my main challenge.
-- **Task:** I had to record my daily progress, stand-up goals, and blockers in my Agile logbook.
-- **Action:** Each day I logged my completed work—including presentation slides, Figma wireframes, Trello backlog setup, coding and merging the Forgot and Reset Password pages, and building the sprint board.
-- **Result:** The logbooks created an auditable trail of my professional evolution, highlighting how I systematically tracked blockers, managed time constraints, and delivered code iteratively. I gained invaluable practical experience in multitasking, disciplined documentation, and Agile project execution under high-pressure academic conditions.
+- **Situation:** Between 14 July and 7 August, I worked on the GoClean app while trying to meet tight deadlines for my capstone project. Managing my time was my biggest challenge.
+- **Task:** I had to record my daily progress, goals, and problems in my Agile logbook.
+- **Action:** Every day, I wrote down what I finished—such as presentation slides, Figma wireframes, Trello setup, coding the password recovery pages, and setting up sprint boards.
+- **Result:** Keeping a daily logbook helped me track my progress and see how I managed my time under pressure. It gave me great hands-on experience with Agile teamwork and time management.
 
 ---
 
 ## 💻 Portfolio Development & Web Publishing
 
 **Reflection:**
-- **Situation:** After finalizing all our Agile documentation and project evidence, I needed to assemble and publish everything into a clean, professional digital portfolio using Markdown and GitHub Pages.
-- **Task:** My task was to organize the portfolio structure, format all sections with clear headings and bullet points, and deploy the site successfully so that lecturers and reviewers could easily read our work and access our PDF files.
-- **Action:** I structured the Markdown pages, embedded the required evidence links and images, and used GitHub's version control to commit and deploy the updates.
-- **Result:** I successfully created and published a professional digital portfolio. I learned how valuable Markdown is for documentation and technical writing, and I am now much more confident using GitHub Pages to showcase software development projects.
-
-
+- **Situation:** After finishing all our project work and documents, my final step was to put everything together into a clean digital portfolio using Markdown and GitHub Pages.
+- **Task:** My task was to organize the portfolio, format all the sections nicely, and publish the website so my teachers could easily read our work and open our PDF files.
+- **Action:** I wrote the Markdown files, added my images and links, and used GitHub to save and publish the updates online.
+- **Result:** I successfully published my professional portfolio. I learned how to use Markdown for technical writing and how to use GitHub Pages to share my software projects with the world.
