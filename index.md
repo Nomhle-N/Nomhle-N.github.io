@@ -204,7 +204,7 @@ My portfolio is now live online. This experience taught me an easy way to publis
 ## 📓 Agile Logbook
 **Evidence:**
 - [14-17 July](Nomhle%20Njengele%20Agile%20Logbook-1.pdf)
-- [21-24 July](Nomhle_Njengele_Agile_book_21July_to_24_July-2.pdf)
+- [21-24 July](Nomhle_Njengele_Agile_book_21July_to_24%20July-2.pdf)
 - [28-31 July](Nomhle_Njengele_Agile_Logbook_28_31_July_2026-1.pdf)
 - [4-7 August](Nomhle_Njengele_Agile_Logbook_4_7_August_06.pdf)
 
