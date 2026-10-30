@@ -145,7 +145,7 @@ My portfolio is now live online. This experience taught me an easy way to publis
 
 **Reflection:**
 - **Situation:** Our group of five started working on the GoClean project after our lecturer suggested changing our idea from a clinic booking system to a laundry pickup and delivery service. We needed ground rules on how to work together.
-- **Task:** As a developer, I needed to understand my role—building the system using Java Spring Boot—and help my team agree on our goals and team rules.
+- **Task:** As a developer, I needed to understand my role building the system using Java Spring Boot and help my team agree on our goals and team rules.
 - **Action:** Together, we wrote a team charter. We listed our core values, such as respect, clear communication, and teamwork, and decided how we would handle our tasks.
 - **Result:** The charter gave every team member a clear job and kept us working well together. I learned that setting team rules early saves a lot of time and confusion later.
 
@@ -168,7 +168,7 @@ My portfolio is now live online. This experience taught me an easy way to publis
 <img src="1000987856.jpg" alt="Product Backlog" width="150">
 
 **Reflection:**
-- **Situation:** By late July, our team had a long list of tasks for GoClean—including the database, front-end pages, and testing—that needed to be organized.
+- **Situation:** By late July, our team had a long list of tasks for GoClean including the database, front-end pages, and testing that needed to be organized.
 - **Task:** We needed to sort and prioritize our Trello product backlog so we knew what to build first.
 - **Action:** As a team, we reviewed our Trello tasks and grouped them into order of importance before submitting our product backlog on 30 July.
 - **Result:** Having a clear product backlog kept our work organized and helped us avoid wasting time on the wrong features.
@@ -211,7 +211,7 @@ My portfolio is now live online. This experience taught me an easy way to publis
 **Reflection:**
 - **Situation:** Between 14 July and 7 August, I worked on the GoClean app while trying to meet tight deadlines for my capstone project. Managing my time was my biggest challenge.
 - **Task:** I had to record my daily progress, goals, and problems in my Agile logbook.
-- **Action:** Every day, I wrote down what I finished—such as presentation slides, Figma wireframes, Trello setup, coding the password recovery pages, and setting up sprint boards.
+- **Action:** Every day, I wrote down what I finished such as presentation slides, Figma wireframes, Trello setup, coding the password recovery pages, and setting up sprint boards.
 - **Result:** Keeping a daily logbook helped me track my progress and see how I managed my time under pressure. It gave me great hands-on experience with Agile teamwork and time management.
 
 ---
