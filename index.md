@@ -139,6 +139,19 @@ My portfolio is now live online. This experience taught me an easy way to publis
 ---
 
 # 🧼 GoClean Agile Project Management & WIL Reflections
+---
+
+## 🌐 Live Web Application & Deployment Reflection
+**Evidence:** [GoClean Live Web Application](https://go-clean-one.vercel.app/)
+
+**Reflection:**
+- **Situation:** Our GoClean project started as a local Express and MySQL application running only on individual laptops, which limited our ability to showcase a working prototype to stakeholders.
+- **Task:** Our team needed to transition the application to a cloud architecture so it could be hosted live and accessed anywhere via a public URL, while ensuring user login functionality worked reliably.
+- **Action:** We collaborated to migrate our database to Supabase (PostgreSQL) with Row Level Security, integrated Vercel serverless API functions, set up Resend for real password recovery emails, and deployed the front end on Vercel. I specifically worked on developing the user authentication interface, building the login form flow, and verifying that user credentials log in properly to access application features.
+- **Result:** Successfully deploying the application live on Vercel gave us hands-on experience with production-ready cloud deployment, user login validation, serverless backend integration, and full-stack project workflows.
+
+---
+
 
 ## 🤝 Agile Team Charter
 **Evidence:** [GoClean Agile Team Charter](Agile_Team_Charter_GoClean.pdf)
