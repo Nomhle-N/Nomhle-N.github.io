@@ -179,7 +179,6 @@ My portfolio is now live online. This experience taught me an easy way to publis
 <br>
 
 <h3>Project User Stories & Task Breakdown</h3>
-
 <h4>1. Account Login & Session Access</h4>
 <blockquote style="margin-left: 20px; border-left: 4px solid #ccc; padding-left: 10px;">
   <b>As a</b> registered customer,<br>
@@ -187,11 +186,10 @@ My portfolio is now live online. This experience taught me an easy way to publis
   <b>So that</b> I can securely access my personal dashboard, view my profile, and manage my laundry orders.
 </blockquote>
 <ul>
-  <li><b>Task 1:</b> Build a responsive Login HTML page with inputs for email and password.</li>
-  <li><b>Task 2:</b> Implement client-side JavaScript validation for required fields and valid email format.</li>
-  <li><b>Task 3:</b> Connect the login form submit event to the backend authentication API.</li>
-  <li><b>Task 4:</b> Verify hashed credentials against the database using bcrypt.</li>
-  <li><b>Task 5:</b> Store session login state to keep the user authenticated across pages.</li>
+  <li><b>As a</b> customer, <b>I want to</b> access a clean and responsive login form, <b>so that</b> I can input my email and password easily.</li>
+  <li><b>As a</b> customer, <b>I want to</b> receive real-time validation warnings when entering incorrect email formats, <b>so that</b> I can fix errors before submitting.</li>
+  <li><b>As a</b> security-conscious user, <b>I want my</b> credentials verified through secure backend API checks, <b>so that</b> unauthorized users cannot access my account.</li>
+  <li><b>As a</b> returning user, <b>I want my</b> session state maintained securely across pages, <b>so that</b> I do not have to log in repeatedly while using the app.</li>
 </ul>
 
 <h4>2. Password Recovery & Reset Flow</h4>
@@ -201,10 +199,9 @@ My portfolio is now live online. This experience taught me an easy way to publis
   <b>So that</b> I can safely regain access to my account.
 </blockquote>
 <ul>
-  <li><b>Task 1:</b> Build "Forgot Password" and "Reset Password" web forms.</li>
-  <li><b>Task 2:</b> Create API endpoint to generate an expiring reset token in Supabase.</li>
-  <li><b>Task 3:</b> Integrate Resend API to send the password reset link with the token to the user's email.</li>
-  <li><b>Task 4:</b> Process the new password submission, hash it securely, and update the database.</li>
+  <li><b>As a</b> customer who forgot my credentials, <b>I want to</b> request a password reset link, <b>so that</b> I can regain account access safely.</li>
+  <li><b>As a</b> user, <b>I want to</b> receive a secure, expiring token via email, <b>so that</b> my password reset attempt is validated safely.</li>
+  <li><b>As a</b> customer, <b>I want to</b> set a new password and have it encrypted immediately, <b>so that</b> my account remains protected from unauthorized access.</li>
 </ul>
 
 <h4>3. Placing a Laundry Pickup Order</h4>
@@ -214,57 +211,89 @@ My portfolio is now live online. This experience taught me an easy way to publis
   <b>So that</b> the GoClean team can pick up my clothes and fulfill my order.
 </blockquote>
 <ul>
-  <li><b>Task 1:</b> Design the order placement screen with service selection, address fields, date/time pickers, and quantity inputs.</li>
-  <li><b>Task 2:</b> Write frontend script to save order data to the orders database table in Supabase.</li>
-  <li><b>Task 3:</b> Ensure the order is saved under the logged-in user's specific user_id.</li>
-  <li><b>Task 4:</b> Redirect user to the "My Orders" summary page after successful placement.</li>
+  <li><b>As a</b> customer, <b>I want to</b> select laundry services, schedule dates, and input my address on a clear order form, <b>so that</b> I can request custom laundry care.</li>
+  <li><b>As a</b> customer, <b>I want my</b> submitted orders tied directly to my personal account ID, <b>so that</b> my order details are saved accurately.</li>
+  <li><b>As a</b> customer, <b>I want to</b> be redirected to an order summary upon submission, <b>so that</b> I can confirm my booking was successfully received.</li>
 </ul>
 
-<h4>4. Order Tracking & Status Summary</h4>
+<h4>4. Order Tracking Page</h4>
 <blockquote style="margin-left: 20px; border-left: 4px solid #ccc; padding-left: 10px;">
-  <b>As a</b> customer,<br>
-  <b>I want to</b> view my past order history and track active orders,<br>
-  <b>So that</b> I can stay updated on the status of my laundry.
+  <b>As a</b> customer with an active laundry order,<br>
+  <b>I want to</b> track the real-time status and pickup/delivery progress of my laundry,<br>
+  <b>So that</b> I know exactly when to expect my clean clothes.
 </blockquote>
 <ul>
-  <li><b>Task 1:</b> Create "My Orders" and "Track Order" interface pages.</li>
-  <li><b>Task 2:</b> Implement database queries so customers can only view their own records.</li>
-  <li><b>Task 3:</b> Render a visual status timeline showing timestamps for order stages.</li>
+  <li><b>As a</b> customer, <b>I want to</b> view a visual status timeline of my active orders, <b>so that</b> I know which stage of cleaning or delivery my clothes are in.</li>
+  <li><b>As a</b> customer, <b>I want to</b> see real-time timestamp updates on my tracking screen, <b>so that</b> I can plan around driver pickup and delivery times.</li>
 </ul>
 
-<h4>5. Editable Profile Management</h4>
+<h4>5. Order History Page</h4>
+<blockquote style="margin-left: 20px; border-left: 4px solid #ccc; padding-left: 10px;">
+  <b>As a</b> returning customer,<br>
+  <b>I want to</b> view a history of all my past laundry orders and invoices,<br>
+  <b>So that</b> I can review previous spending and rebook preferred services easily.
+</blockquote>
+<ul>
+  <li><b>As a</b> returning customer, <b>I want to</b> view a complete list of my past completed orders and receipts, <b>so that</b> I can track my overall spending.</li>
+  <li><b>As a</b> customer, <b>I want my</b> historical orders retrieved quickly and accurately, <b>so that</b> I can easily reference or repeat past bookings.</li>
+</ul>
+
+<h4>6. Editable Profile Management</h4>
 <blockquote style="margin-left: 20px; border-left: 4px solid #ccc; padding-left: 10px;">
   <b>As a</b> registered customer,<br>
-  <b>I want to</b> update my personal details, pickup address, and special delivery instructions,<br>
-  <b>So that</b> my order details remain accurate without re-entering them every time.
+  <b>I want to</b> view and update my personal account details and preferences,<br>
+  <b>So that</b> I can keep my contact information and delivery address accurate.
 </blockquote>
 <ul>
-  <li><b>Task 1:</b> Build a responsive Profile Management web page pre-populated with current user data.</li>
-  <li><b>Task 2:</b> Add client-side validation for updated phone numbers, addresses, and special instructions.</li>
-  <li><b>Task 3:</b> Update the corresponding record in the database.</li>
-  <li><b>Task 4:</b> Display a confirmation alert when profile updates save successfully.</li>
+  <li><b>As a</b> customer, <b>I want to</b> edit my phone number, address, and delivery instructions on my profile, <b>so that</b> driver deliveries are always accurate.</li>
+  <li><b>As a</b> customer, <b>I want to</b> receive visual confirmation when my changes save successfully, <b>so that</b> I know my updated information is stored.</li>
 </ul>
 
-<h4>6. User Sign Out & Session Termination</h4>
+<h4>7. User Sign Out & Session Termination</h4>
 <blockquote style="margin-left: 20px; border-left: 4px solid #ccc; padding-left: 10px;">
   <b>As a</b> logged-in customer,<br>
   <b>I want to</b> log out of my account,<br>
   <b>So that</b> my session is terminated safely on a shared device.
 </blockquote>
 <ul>
-  <li><b>Task 1:</b> Add a "Log Out" button in the application header and navigation menu.</li>
-  <li><b>Task 2:</b> Write JavaScript logic to clear session state and user data from browser storage.</li>
-  <li><b>Task 3:</b> Redirect the user back to the homepage or login screen upon logging out.</li>
+  <li><b>As a</b> customer, <b>I want an</b> easily accessible "Log Out" button in the menu, <b>so that</b> I can end my session whenever I choose.</li>
+  <li><b>As a</b> security-conscious user, <b>I want my</b> active session cleared from browser memory upon logging out, <b>so that</b> others cannot access my account on shared devices.</li>
+</ul>
+
+<h4>8. Admin Dashboard</h4>
+<blockquote style="margin-left: 20px; border-left: 4px solid #ccc; padding-left: 10px;">
+  <b>As a</b> system administrator,<br>
+  <b>I want to</b> view a central management dashboard displaying overall system activity, user statistics, and order volumes,<br>
+  <b>So that</b> I can effectively monitor platform operations and manage service delivery.
+</blockquote>
+<ul>
+  <li><b>As an</b> administrator, <b>I want to</b> view real-time system metrics and driver assignments on a centralized dashboard, <b>so that</b> I can oversee operations smoothly.</li>
+  <li><b>As an</b> administrator, <b>I want live</b> updates on order volumes, <b>so that</b> operational bottlenecks can be resolved immediately.</li>
+</ul>
+
+<h4>9. WhatsApp & Customer Support Integration</h4>
+<blockquote style="margin-left: 20px; border-left: 4px solid #ccc; padding-left: 10px;">
+  <b>As a</b> customer needing help with my laundry order,<br>
+  <b>I want to</b> click a quick WhatsApp support button to reach out directly to the team,<br>
+  <b>So that</b> I can get fast, real-time assistance with any questions or issues.
+</blockquote>
+<ul>
+  <li><b>As a</b> customer, <b>I want a</b> floating WhatsApp support button on the web application, <b>so that</b> I can initiate instant live help anytime.</li>
+  <li><b>As a</b> mobile customer, <b>I want clicking</b> support to open WhatsApp directly with pre-filled context, <b>so that</b> I can message the support team effortlessly.</li>
+</ul>
+
+<h4>10. Website Deployment & Production Launch</h4>
+<blockquote style="margin-left: 20px; border-left: 4px solid #ccc; padding-left: 10px;">
+  <b>As a</b> project developer and team member,<br>
+  <b>I want to</b> deploy the fully tested GoClean application to the live production environment,<br>
+  <b>So that</b> real customers can access, use, and benefit from the laundry service platform.
+</blockquote>
+<ul>
+  <li><b>As a</b> user, <b>I want to</b> access the application reliably on a secure production URL, <b>so that</b> I can place orders anytime without downtime.</li>
+  <li><b>As a</b> customer, <b>I want my</b> data handled safely by live production backend databases, <b>so that</b> my transactions remain seamless and secure.</li>
 </ul>
 
 </details>
-
-
-
-
-
-
-
 
 ## 📋 Product Backlog
 **Evidence:** [GoClean Trello board](https://trello.com/b/Ia2c4Am0/goclean-app)
