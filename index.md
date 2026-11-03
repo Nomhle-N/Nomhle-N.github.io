@@ -163,17 +163,90 @@ My portfolio is now live online. This experience taught me an easy way to publis
 - **Result:** The charter gave every team member a clear job and kept us working well together. I learned that setting team rules early saves a lot of time and confusion later.
 
 ---
-
 ## 📝 User Stories and Tasks
 **Evidence:** [GoClean Trello board](https://trello.com/b/Ia2c4Am0/goclean-app)
+
+<details>
+<summary><b>Click here to view User Stories & Task Breakdown</b></summary>
+
+<br>
 
 **Reflection:**
 - **Situation:** On 24 July, we presented our Trello backlog to our lecturer, and she told us our tasks looked like developer chores instead of proper user stories ("As a user, I want to do X so that Y").
 - **Task:** My task was to help rewrite our backlog tasks into proper user story format so they focused on what the customer needs.
-- **Action:** I wrote out the user stories in a document, and a teammate updated our Trello board with them before we sorted them into sprints.
+- **Action:** I wrote out the user stories for our key features—including authentication, order placement, tracking, profile management, and logout flows—and our team updated our Trello board with them before sorting them into sprints.
 - **Result:** Writing proper user stories made it much easier to understand what features we needed to build and why our users needed them.
 
 ---
+
+### Project User Stories & Task Breakdown
+
+#### 1. Account Login & Session Access
+> **As a** registered customer,  
+> **I want to** log into my account using my email and password,  
+> **So that** I can securely access my personal dashboard, view my profile, and manage my laundry orders.
+
+- **Task 1:** Build a responsive Login HTML page with inputs for email and password.
+- **Task 2:** Implement client-side JavaScript validation for required fields and valid email format.
+- **Task 3:** Connect the login form submit event to the backend authentication API.
+- **Task 4:** Verify hashed credentials against the database using `bcrypt`.
+- **Task 5:** Store session login state to keep the user authenticated across pages.
+
+#### 2. Password Recovery & Reset Flow
+> **As a** customer who forgot my password,  
+> **I want to** request a password reset email,  
+> **So that** I can safely regain access to my account.
+
+- **Task 1:** Build "Forgot Password" and "Reset Password" web forms.
+- **Task 2:** Create API endpoint to generate an expiring reset token in Supabase.
+- **Task 3:** Integrate Resend API to send the password reset link with the token to the user's email.
+- **Task 4:** Process the new password submission, hash it securely, and update the database.
+
+#### 3. Placing a Laundry Pickup Order
+> **As a** customer,  
+> **I want to** select my laundry service, pickup/delivery dates, and address details,  
+> **So that** the GoClean team can pick up my clothes and fulfill my order.
+
+- **Task 1:** Design the order placement screen with service selection, address fields, date/time pickers, and quantity inputs.
+- **Task 2:** Write frontend script to save order data to the `orders` database table in Supabase.
+- **Task 3:** Ensure the order is saved under the logged-in user's specific `user_id`.
+- **Task 4:** Redirect user to the "My Orders" summary page after successful placement.
+
+#### 4. Order Tracking & Status Summary
+> **As a** customer,  
+> **I want to** view my past order history and track active orders,  
+> **So that** I can stay updated on the status of my laundry.
+
+- **Task 1:** Create "My Orders" and "Track Order" interface pages.
+- **Task 2:** Implement database queries so customers can only view their own records.
+- **Task 3:** Render a visual status timeline showing timestamps for order stages.
+
+#### 5. Editable Profile Management
+> **As a** registered customer,  
+> **I want to** update my personal details, pickup address, and special delivery instructions,  
+> **So that** my order details remain accurate without re-entering them every time.
+
+- **Task 1:** Build a responsive Profile Management web page pre-populated with current user data.
+- **Task 2:** Add client-side validation for updated phone numbers, addresses, and special instructions.
+- **Task 3:** Update the corresponding record in the database.
+- **Task 4:** Display a confirmation alert when profile updates save successfully.
+
+#### 6. User Sign Out & Session Termination
+> **As a** logged-in customer,  
+> **I want to** log out of my account,  
+> **So that** my session is terminated safely on a shared device.
+
+- **Task 1:** Add a "Log Out" button in the application header and navigation menu.
+- **Task 2:** Write JavaScript logic to clear session state and user data from browser storage.
+- **Task 3:** Redirect the user back to the homepage or login screen upon logging out.
+
+</details>
+
+
+
+
+
+
 
 ## 📋 Product Backlog
 **Evidence:** [GoClean Trello board](https://trello.com/b/Ia2c4Am0/goclean-app)
