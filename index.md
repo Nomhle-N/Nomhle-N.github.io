@@ -164,13 +164,17 @@ My portfolio is now live online. This experience taught me an easy way to publis
 
 ---
 ## 📝 User Stories and Tasks
-**Evidence:** [GoClean Trello board](https://trello.com/b/Ia2c4Am0/goclean-app)
+<b>Evidence:</b> <a href="https://trello.com/b/Ia2c4Am0/goclean-app">GoClean Trello board</a>
 
-**Reflection:**
-- **Situation:** On 24 July, we presented our Trello backlog to our lecturer, and she told us our tasks looked like developer chores instead of proper user stories ("As a user, I want to do X so that Y").
-- **Task:** My task was to help rewrite our backlog tasks into proper user story format so they focused on what the customer needs.
-- **Action:** I wrote out the user stories for our key features—including authentication, order placement, tracking, profile management, and logout flows—and our team updated our Trello board with them before sorting them into sprints.
-- **Result:** Writing proper user stories made it much easier to understand what features we needed to build and why our users needed them.
+<br>
+
+<b>Reflection:</b>
+<ul>
+  <li><b>Situation:</b> On 24 July, we presented our Trello backlog to our lecturer, who pointed out that our cards looked like internal developer chores (e.g., "Build DB connection") rather than value-driven user stories following the proper "As a user, I want to X so that Y" format.</li>
+  <li><b>Task:</b> My responsibility was to lead the effort in refactoring our backlog tasks into standard Agile User Stories, while also owning the Quality Assurance and Verification tasks across all project sprints.</li>
+  <li><b>Action:</b> I wrote out and standardized the user stories for our core features—including authentication, order placement, real-time tracking, profile management, customer support, and deployment. Additionally, I took personal ownership of the testing and validation subtasks across each sprint: verifying login session persistence, checking responsive pricing layouts on multiple screen sizes, auditing pilot test data quality, and performing final user acceptance testing on our live Vercel deployment before launch.</li>
+  <li><b>Result:</b> Restructuring our backlog into user stories gave the team clear context on customer value, while establishing 1-to-1 traceability between our Trello sprint board and project documentation. This approach ensured that every feature was thoroughly tested and verified before reaching production.</li>
+</ul>
 
 <br>
 
@@ -179,6 +183,7 @@ My portfolio is now live online. This experience taught me an easy way to publis
 <br>
 
 <h3>Project User Stories & Task Breakdown</h3>
+
 <h4>1. Account Login & Session Access</h4>
 <blockquote style="margin-left: 20px; border-left: 4px solid #ccc; padding-left: 10px;">
   <b>As a</b> registered customer,<br>
@@ -186,10 +191,10 @@ My portfolio is now live online. This experience taught me an easy way to publis
   <b>So that</b> I can securely access my personal dashboard, view my profile, and manage my laundry orders.
 </blockquote>
 <ul>
-  <li><b>As a</b> customer, <b>I want to</b> access a clean and responsive login form, <b>so that</b> I can input my email and password easily.</li>
-  <li><b>As a</b> customer, <b>I want to</b> receive real-time validation warnings when entering incorrect email formats, <b>so that</b> I can fix errors before submitting.</li>
-  <li><b>As a</b> security-conscious user, <b>I want my</b> credentials verified through secure backend API checks, <b>so that</b> unauthorized users cannot access my account.</li>
-  <li><b>As a</b> returning user, <b>I want my</b> session state maintained securely across pages, <b>so that</b> I do not have to log in repeatedly while using the app.</li>
+  <li><b>Task 1 (Design):</b> Build a responsive Login HTML interface with inputs for email and password.</li>
+  <li><b>Task 2 (Development):</b> Connect the login form submit event to the backend authentication API and verify credentials using bcrypt.</li>
+  <li><b>Task 3 (Nomhle - QA & Testing):</b> Test client-side JavaScript validation and verify session state persistence across browser refreshes.</li>
+  <li><b>Task 4 (Documentation):</b> Document authentication flow and session handling rules.</li>
 </ul>
 
 <h4>2. Password Recovery & Reset Flow</h4>
@@ -199,9 +204,10 @@ My portfolio is now live online. This experience taught me an easy way to publis
   <b>So that</b> I can safely regain access to my account.
 </blockquote>
 <ul>
-  <li><b>As a</b> customer who forgot my credentials, <b>I want to</b> request a password reset link, <b>so that</b> I can regain account access safely.</li>
-  <li><b>As a</b> user, <b>I want to</b> receive a secure, expiring token via email, <b>so that</b> my password reset attempt is validated safely.</li>
-  <li><b>As a</b> customer, <b>I want to</b> set a new password and have it encrypted immediately, <b>so that</b> my account remains protected from unauthorized access.</li>
+  <li><b>Task 1 (Design):</b> Build "Forgot Password" and "Reset Password" web forms.</li>
+  <li><b>Task 2 (Development):</b> Create API logic to generate expiring reset tokens in Supabase and send reset links via Resend API.</li>
+  <li><b>Task 3 (Nomhle - QA & Testing):</b> Test password reset link expiration, token validation, and password hash updates.</li>
+  <li><b>Task 4 (Documentation):</b> Document password reset flow and security edge cases.</li>
 </ul>
 
 <h4>3. Placing a Laundry Pickup Order</h4>
@@ -211,9 +217,10 @@ My portfolio is now live online. This experience taught me an easy way to publis
   <b>So that</b> the GoClean team can pick up my clothes and fulfill my order.
 </blockquote>
 <ul>
-  <li><b>As a</b> customer, <b>I want to</b> select laundry services, schedule dates, and input my address on a clear order form, <b>so that</b> I can request custom laundry care.</li>
-  <li><b>As a</b> customer, <b>I want my</b> submitted orders tied directly to my personal account ID, <b>so that</b> my order details are saved accurately.</li>
-  <li><b>As a</b> customer, <b>I want to</b> be redirected to an order summary upon submission, <b>so that</b> I can confirm my booking was successfully received.</li>
+  <li><b>Task 1 (Design):</b> Design the order placement screen with service selection, address inputs, and date pickers.</li>
+  <li><b>Task 2 (Development):</b> Write frontend script to post order payload to Supabase and bind order records to the user_id.</li>
+  <li><b>Task 3 (Nomhle - QA & Testing):</b> Test order form validation, date selection limits, and summary redirection after successful booking.</li>
+  <li><b>Task 4 (Documentation):</b> Document order processing fields and database mapping.</li>
 </ul>
 
 <h4>4. Order Tracking Page</h4>
@@ -223,8 +230,10 @@ My portfolio is now live online. This experience taught me an easy way to publis
   <b>So that</b> I know exactly when to expect my clean clothes.
 </blockquote>
 <ul>
-  <li><b>As a</b> customer, <b>I want to</b> view a visual status timeline of my active orders, <b>so that</b> I know which stage of cleaning or delivery my clothes are in.</li>
-  <li><b>As a</b> customer, <b>I want to</b> see real-time timestamp updates on my tracking screen, <b>so that</b> I can plan around driver pickup and delivery times.</li>
+  <li><b>Task 1 (Design):</b> Design the "Track Order" interface page with a visual status timeline.</li>
+  <li><b>Task 2 (Development):</b> Implement backend database queries to fetch active status stages for logged-in users.</li>
+  <li><b>Task 3 (Nomhle - QA & Testing):</b> Test real-time status updates and timestamp displays across active order stages.</li>
+  <li><b>Task 4 (Documentation):</b> Document status state transitions and tracking logic.</li>
 </ul>
 
 <h4>5. Order History Page</h4>
@@ -234,8 +243,10 @@ My portfolio is now live online. This experience taught me an easy way to publis
   <b>So that</b> I can review previous spending and rebook preferred services easily.
 </blockquote>
 <ul>
-  <li><b>As a</b> returning customer, <b>I want to</b> view a complete list of my past completed orders and receipts, <b>so that</b> I can track my overall spending.</li>
-  <li><b>As a</b> customer, <b>I want my</b> historical orders retrieved quickly and accurately, <b>so that</b> I can easily reference or repeat past bookings.</li>
+  <li><b>Task 1 (Design):</b> Design a clear list view of past completed orders and receipts.</li>
+  <li><b>Task 2 (Development):</b> Configure historical order data retrieval from Supabase filtered by account ID.</li>
+  <li><b>Task 3 (Nomhle - QA & Testing):</b> Test order history under higher record volumes so no past orders are omitted.</li>
+  <li><b>Task 4 (Documentation):</b> Document historical query logic and data archival rules.</li>
 </ul>
 
 <h4>6. Editable Profile Management</h4>
@@ -245,8 +256,10 @@ My portfolio is now live online. This experience taught me an easy way to publis
   <b>So that</b> I can keep my contact information and delivery address accurate.
 </blockquote>
 <ul>
-  <li><b>As a</b> customer, <b>I want to</b> edit my phone number, address, and delivery instructions on my profile, <b>so that</b> driver deliveries are always accurate.</li>
-  <li><b>As a</b> customer, <b>I want to</b> receive visual confirmation when my changes save successfully, <b>so that</b> I know my updated information is stored.</li>
+  <li><b>Task 1 (Design):</b> Build a responsive Profile Management web page pre-populated with current user data.</li>
+  <li><b>Task 2 (Development):</b> Execute UPDATE queries against user profile tables upon form submission.</li>
+  <li><b>Task 3 (Nomhle - QA & Testing):</b> Test profile input validation for phone numbers, addresses, and success alert popups.</li>
+  <li><b>Task 4 (Documentation):</b> Document profile schema fields and update constraints.</li>
 </ul>
 
 <h4>7. User Sign Out & Session Termination</h4>
@@ -256,41 +269,75 @@ My portfolio is now live online. This experience taught me an easy way to publis
   <b>So that</b> my session is terminated safely on a shared device.
 </blockquote>
 <ul>
-  <li><b>As a</b> customer, <b>I want an</b> easily accessible "Log Out" button in the menu, <b>so that</b> I can end my session whenever I choose.</li>
-  <li><b>As a</b> security-conscious user, <b>I want my</b> active session cleared from browser memory upon logging out, <b>so that</b> others cannot access my account on shared devices.</li>
+  <li><b>Task 1 (Design):</b> Add an accessible "Log Out" button in the application navigation header.</li>
+  <li><b>Task 2 (Development):</b> Write JavaScript logic to clear session state and user data from browser storage.</li>
+  <li><b>Task 3 (Nomhle - QA & Testing):</b> Verify complete session token destruction and redirection to the landing page upon logging out.</li>
+  <li><b>Task 4 (Documentation):</b> Document session termination and security cleanup rules.</li>
 </ul>
 
-<h4>8. Admin Dashboard</h4>
+<h4>8. Pricing & Packages Page</h4>
+<blockquote style="margin-left: 20px; border-left: 4px solid #ccc; padding-left: 10px;">
+  <b>As a</b> customer browsing the GoClean services,<br>
+  <b>I want to</b> view transparent pricing and laundry package details,<br>
+  <b>So that</b> I can easily compare service costs and choose the best option for my budget.
+</blockquote>
+<ul>
+  <li><b>Task 1 (Design):</b> Design a clear, visual pricing card display.</li>
+  <li><b>Task 2 (Development):</b> Store pricing data centralized in the database for dynamic updates.</li>
+  <li><b>Task 3 (Nomhle - QA & Testing):</b> Test pricing displays on all mobile and desktop devices so customers never see wrong figures[span_0](start_span)[span_0](end_span).</li>
+  <li><b>Task 4 (Documentation):</b> Document pricing structures and package updating procedures[span_1](start_span)[span_1](end_span).</li>
+</ul>
+
+<h4>9. Admin Dashboard</h4>
 <blockquote style="margin-left: 20px; border-left: 4px solid #ccc; padding-left: 10px;">
   <b>As a</b> system administrator,<br>
   <b>I want to</b> view a central management dashboard displaying overall system activity, user statistics, and order volumes,<br>
   <b>So that</b> I can effectively monitor platform operations and manage service delivery.
 </blockquote>
 <ul>
-  <li><b>As an</b> administrator, <b>I want to</b> view real-time system metrics and driver assignments on a centralized dashboard, <b>so that</b> I can oversee operations smoothly.</li>
-  <li><b>As an</b> administrator, <b>I want live</b> updates on order volumes, <b>so that</b> operational bottlenecks can be resolved immediately.</li>
+  <li><b>Task 1 (Design):</b> Design an admin dashboard layout for system metrics and driver assignments.</li>
+  <li><b>Task 2 (Development):</b> Connect dynamic database queries for real-time order status and user volume metrics.</li>
+  <li><b>Task 3 (Nomhle - QA & Testing):</b> Perform dashboard performance testing under simulated multi-user data loads.</li>
+  <li><b>Task 4 (Documentation):</b> Document admin control features and permission levels.</li>
 </ul>
 
-<h4>9. WhatsApp & Customer Support Integration</h4>
+<h4>10. WhatsApp & Customer Support Integration</h4>
 <blockquote style="margin-left: 20px; border-left: 4px solid #ccc; padding-left: 10px;">
   <b>As a</b> customer needing help with my laundry order,<br>
   <b>I want to</b> click a quick WhatsApp support button to reach out directly to the team,<br>
   <b>So that</b> I can get fast, real-time assistance with any questions or issues.
 </blockquote>
 <ul>
-  <li><b>As a</b> customer, <b>I want a</b> floating WhatsApp support button on the web application, <b>so that</b> I can initiate instant live help anytime.</li>
-  <li><b>As a</b> mobile customer, <b>I want clicking</b> support to open WhatsApp directly with pre-filled context, <b>so that</b> I can message the support team effortlessly.</li>
+  <li><b>Task 1 (Design):</b> Design a visible, floating WhatsApp contact button on the UI.</li>
+  <li><b>Task 2 (Development):</b> Configure WhatsApp message routing and integration.</li>
+  <li><b>Task 3 (Nomhle - QA & Testing):</b> Test the WhatsApp link across mobile and desktop browsers to verify correct redirection.</li>
+  <li><b>Task 4 (Documentation):</b> Document the support routing process for team members.</li>
 </ul>
 
-<h4>10. Website Deployment & Production Launch</h4>
+<h4>11. MVP Pilot Test</h4>
+<blockquote style="margin-left: 20px; border-left: 4px solid #ccc; padding-left: 10px;">
+  <b>As a</b> project team member running a pilot launch,<br>
+  <b>I want to</b> execute a controlled MVP pilot test with real users and pre-order forms,<br>
+  <b>So that</b> I can gather valuable feedback, measure system performance, and validate core features before full release.
+</blockquote>
+<ul>
+  <li><b>Task 1 (Design):</b> Design a simple pre-order form.</li>
+  <li><b>Task 2 (Development):</b> Set up organized storage for pilot responses and system telemetry.</li>
+  <li><b>Task 3 (Nomhle - QA & Testing):</b> Check pilot data quality and entry consistency so test results are trustworthy.</li>
+  <li><b>Task 4 (Documentation):</b> Document pilot results and scaling requirements.</li>
+</ul>
+
+<h4>12. Website Deployment & Production Launch</h4>
 <blockquote style="margin-left: 20px; border-left: 4px solid #ccc; padding-left: 10px;">
   <b>As a</b> project developer and team member,<br>
   <b>I want to</b> deploy the fully tested GoClean application to the live production environment,<br>
   <b>So that</b> real customers can access, use, and benefit from the laundry service platform.
 </blockquote>
 <ul>
-  <li><b>As a</b> user, <b>I want to</b> access the application reliably on a secure production URL, <b>so that</b> I can place orders anytime without downtime.</li>
-  <li><b>As a</b> customer, <b>I want my</b> data handled safely by live production backend databases, <b>so that</b> my transactions remain seamless and secure.</li>
+  <li><b>Task 1 (Design):</b> Polish live site UI elements so the application looks and feels complete.</li>
+  <li><b>Task 2 (Development):</b> Configure Vercel deployment pipeline and securely connect the live Supabase production database.</li>
+  <li><b>Task 3 (Nomhle - QA & Testing):</b> Test the live production site prior to launch to ensure zero critical bugs affect real users.</li>
+  <li><b>Task 4 (Documentation):</b> Document and manage the deployment process for future maintenance.</li>
 </ul>
 
 </details>
